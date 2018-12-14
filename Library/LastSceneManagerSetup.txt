@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Tela_menu_cadastro.unity
+  isLoaded: 1
+  isActive: 1
