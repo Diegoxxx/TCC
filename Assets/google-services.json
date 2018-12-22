@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "845453967921",
+    "firebase_url": "https://tcc-gamificacao.firebaseio.com",
+    "project_id": "tcc-gamificacao",
+    "storage_bucket": "tcc-gamificacao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845453967921:android:969178782acfb85a",
+        "android_client_info": {
+          "package_name": "com.company.AppGamificado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845453967921-2jigjmnbuaqkgtjlhbe09abgtq1l8frh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJPmMwQIhnfT82f3rjRsk83CZO4ZhiR44"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

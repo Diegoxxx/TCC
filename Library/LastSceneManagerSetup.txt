@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Tela_menu_cadastro.unity
+- path: Assets/Scenes/Tela_cadastro_professor.unity
   isLoaded: 1
   isActive: 1
