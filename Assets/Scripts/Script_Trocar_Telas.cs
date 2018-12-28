@@ -20,6 +20,14 @@ public class Script_Trocar_Telas : MonoBehaviour {
 		UnityEngine.SceneManagement.SceneManager.LoadScene("Tela_menu_cadastro");
 
 	}
+
+	public void Carrega_Turma()
+	{
+
+		UnityEngine.SceneManagement.SceneManager.LoadScene("Tela_cadastro_turmas");
+
+	}
+
 	public void Carrega_Aluno()
 	{
 
