@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Tela_cadastro_professor.unity
+- path: Assets/Scenes/Tela_avaliacao_aluno.unity
   isLoaded: 1
   isActive: 1

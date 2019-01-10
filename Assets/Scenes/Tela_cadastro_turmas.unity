@@ -821,10 +821,6 @@ MonoBehaviour:
     m_Options:
     - m_Text: Option A
       m_Image: {fileID: 0}
-    - m_Text: Option B
-      m_Image: {fileID: 0}
-    - m_Text: Option C
-      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1217,6 +1213,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1895211134}
     m_Modifications:
+    - target: {fileID: 114181653243433912, guid: f38c1eca5467f914fa521397d06c7f5c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224560015590824440, guid: f38c1eca5467f914fa521397d06c7f5c,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -1306,6 +1307,31 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114181653243433912, guid: f38c1eca5467f914fa521397d06c7f5c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114181653243433912, guid: f38c1eca5467f914fa521397d06c7f5c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114181653243433912, guid: f38c1eca5467f914fa521397d06c7f5c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1895211135}
+    - target: {fileID: 114181653243433912, guid: f38c1eca5467f914fa521397d06c7f5c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: salvar
+      objectReference: {fileID: 0}
+    - target: {fileID: 114181653243433912, guid: f38c1eca5467f914fa521397d06c7f5c,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f38c1eca5467f914fa521397d06c7f5c, type: 2}

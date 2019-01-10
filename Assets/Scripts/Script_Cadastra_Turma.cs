@@ -16,8 +16,6 @@ public class Script_Cadastra_Turma : MonoBehaviour {
 
 	string s = "";
 
-	int controle = 0; 
-
 	public Dropdown drop_professores;
 
 	List<string> listaProf = new List<string>();
@@ -34,8 +32,6 @@ public class Script_Cadastra_Turma : MonoBehaviour {
 
    				 FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://tcc-gamificacao.firebaseio.com");
     			reference = FirebaseDatabase.DefaultInstance.RootReference;
-
-    			//mDatabaseRef.Child("users").Child("1").SetRawJsonValueAsync("Diego");
 
     		} else {
    					 UnityEngine.Debug.LogError(System.String.Format("Could not resolve all Firebase dependencies: {0}", dependencyStatus));

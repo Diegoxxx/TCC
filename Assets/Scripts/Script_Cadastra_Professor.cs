@@ -38,6 +38,8 @@ public class Script_Cadastra_Professor : MonoBehaviour {
     				// Firebase Unity SDK is not safe to use here.
     			}
     	});
+
+		
 	}
 
 	public void salvar()

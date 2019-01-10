@@ -4,7 +4,6 @@ using UnityEngine;
 using Firebase;
 using Firebase.Database;
 using Firebase.Unity.Editor;
-
 	
 public class Script_Teste_firebase : MonoBehaviour {
 
@@ -55,8 +54,10 @@ public class Script_Teste_firebase : MonoBehaviour {
     reference.Child("users").Child("ID").SetValueAsync("Diego");
 
   }
+
 	// Update is called once per frame
 	void Update () {
-		
+		// Handle screen touches.
+        
 	}
 }
